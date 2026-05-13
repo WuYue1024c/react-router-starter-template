@@ -7,9 +7,6 @@ import {
   Smartphone,
   Gem,
   RefreshCcw,
-  Facebook,
-  Linkedin,
-  Instagram,
 } from "lucide-react";
 
 import bgImg from "../../assets/bg.jpg";
@@ -106,27 +103,6 @@ const WarrantyPage = () => {
             Follow us on Facebook, Instagram, and LinkedIn to discover new
             products and events.
           </p>
-
-          <div className="flex justify-center space-x-6">
-            <a
-              href="#"
-              className="p-4 bg-slate-50 rounded-2xl text-slate-700 hover:bg-blue-600 hover:text-white transition-all shadow-sm"
-            >
-              <Facebook size={28} />
-            </a>
-            <a
-              href="#"
-              className="p-4 bg-slate-50 rounded-2xl text-slate-700 hover:bg-blue-700 hover:text-white transition-all shadow-sm"
-            >
-              <Linkedin size={28} />
-            </a>
-            <a
-              href="#"
-              className="p-4 bg-slate-50 rounded-2xl text-slate-700 hover:bg-pink-600 hover:text-white transition-all shadow-sm"
-            >
-              <Instagram size={28} />
-            </a>
-          </div>
         </div>
       </section>
 
